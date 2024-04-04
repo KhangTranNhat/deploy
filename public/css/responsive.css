@@ -1,0 +1,255 @@
+/* PC */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    /* Contact */
+    .contact-info {
+        transform: translate(70%, -50%);
+        max-width: 350px;
+    }
+
+    /* Footer */
+    .footer__logo {
+        width: 150px;
+    }
+    .footer__map {
+        width: 300px;
+    }
+}
+
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .contact-btn-send {
+        text-align: center;
+    }
+
+    .btn-send-message {
+        font-size: 1.8rem;
+        border-radius: 10px;
+        padding: 16px 26px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    /* Header */
+    .header-nav__list > li > a {
+        font-size: 1.6rem;
+    }
+
+    /* About us */
+
+    .aboutUs__left h1,
+    .aboutUs__left h1 span {
+        font-size: 2.6rem;
+    }
+
+    .aboutUs__left p {
+        font-size: 1.4rem;
+    }
+
+    .aboutUs__left a {
+        font-size: 1.4rem;
+        padding: 8px 0;
+    }
+
+    .aboutUs__right::before {
+        width: 320px;
+        transform: translateY(60%);
+    }
+
+    .aboutUs__right img {
+        transform: translateY(50%);
+        width: 300px;
+        height: 200px;
+    }
+
+    /* Contact */
+    .contact-info {
+        position: static;
+        transform: unset;
+        padding: 40px;
+        max-width: unset;
+        height: auto;
+        background-color: var(--primary-color);
+        color: var(--white-color);
+    }
+
+    .contact-info h3 {
+        margin-bottom: 60px;
+    }
+
+    /* Footer */
+    .footer__contact-title,
+    .footer__product-title {
+        font-size: 2rem;
+    }
+
+    .footer__contact-content, 
+    .footer__product-item {
+        font-size: 1.4rem;
+    }
+
+    .footer-license {
+        font-size: 1.4rem;
+    }
+
+    /* Introduce page */
+    .introduce-item__content h3 {
+        font-size: 1.6rem;
+    }
+
+    .introduce-item__content p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Mobile*/
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .show-block-on-mobile {
+        display: block;
+    }
+
+    /* Header */
+    .list-icon-mobile {
+        display: inline-block;
+    }
+
+    .header-top {
+        justify-content: center;
+    }
+
+    .header-nav-mobile {
+        display: flex;
+    }
+
+    .header-nav__list-search {
+        display: block;
+    }
+
+    .header-nav__list {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        padding-top: 20px;
+        min-width: 260px;
+        background-color: var(--primary-color);
+        overflow: auto;
+    }
+    
+    .header-nav__list > li > a {
+        padding: 20px 16px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    }
+
+    /* Sub nav */
+    .sub-nav__list {
+        position: static;
+        display: none;
+    }
+
+    /* About Us */
+    .aboutUs__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutUs__left h1,
+    .aboutUs__left h1 span {
+        font-size: 2rem;
+    }
+
+    .aboutUs__left p {
+        font-size: 1.2rem;
+    }
+
+    .aboutUs__right {
+        margin-top: 40px;
+    }
+
+    .aboutUs__right::before {
+        display: none;
+    }
+
+    /* reason */
+    .reason h1 {
+        font-size: 2rem;
+    }
+
+    .reason-item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .reason-item__content h3 {
+        font-size: 1.4rem;
+    }
+    
+    .reason-item__content p {
+        font-size: 1.2rem;
+    }
+
+    /* Contact */
+    .contact {
+        margin-top: unset;
+    }
+    .contact-form {
+        position: relative;
+        margin: unset;
+        padding: 40px 0 10px;
+        border: unset;
+        box-shadow: unset;
+        border-radius: unset;
+    }
+
+    .contact-info {
+        position: static;
+        transform: unset;
+        padding: 40px;
+        max-width: unset;
+        height: unset;
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        border-radius: 10px;
+    }
+    
+    .contact-info h3 {
+        margin-bottom: 40px;
+    }
+
+    /* Footer */
+    .footer {
+        display: none;
+    }
+
+    /* Introduce page */
+    .introduce-content h1,
+    .introduce-reason h1 { 
+        font-size: 2rem;
+    }
+
+    .introduce-item {
+        margin-bottom: 20px;
+    }
+
+    .introduce-item__content h3 {
+        font-size: 1.4rem;
+    }
+    
+    .introduce-content p {
+        font-size: 1.2rem;
+    }
+
+    .introduce-item__content p {
+        font-size: 1.2rem;
+    }
+}

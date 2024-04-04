@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #38a8df;
+    --sub-primary-color: #04233b;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #1f1f1f;
+    --m-t-40: 40px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    font-size: 62.5%; /*1rem = 10px*/
+    line-height: 1.6rem; /* 1.6rem = 16px */
+    font-family: "Roboto", sans-serif !important ; /* sans-serif chữ không chân*/
+}
+
+ul {
+    list-style: none;
+}
+
+input[type="text"] {
+    font-family: 'Poppins', sans-serif; /* Thay đổi font chữ cho phần tử input */
+}
+
+.m-t-sticky-header {
+    margin-top: 56px;
+}

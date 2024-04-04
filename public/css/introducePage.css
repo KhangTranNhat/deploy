@@ -1,0 +1,41 @@
+.introduce {
+    padding-bottom: 40px;
+}
+.introduce-content {
+    margin-top: var(--m-t-40);
+}
+
+.introduce-content h1,
+.introduce-reason h1 { 
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.introduce-content p {
+    margin: 16px 0;
+    text-align: justify;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+.introduce-reason {
+    margin: 60px 0 40px;
+}
+
+.introduce-item {
+    text-align: center;
+}
+
+.introduce-item img {
+    width: 100px;
+}
+
+.introduce-item__content h3{
+    margin: 12px;
+    font-size: 2rem;
+}
+
+.introduce-item__content p {
+    font-size: 1.4rem;
+}

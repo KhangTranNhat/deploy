@@ -1,0 +1,111 @@
+/* Content */
+.content {
+    margin-top: var(--m-t-40);
+    padding-bottom: 20px;
+}
+
+/* About us */
+.aboutUs {
+    margin: 40px 20px 0;
+}
+
+.aboutUs__left {
+    margin-top: 20px;
+}
+
+.aboutUs__left h1,
+.aboutUs__left h1 span {
+    font-size: 3rem;
+}
+
+.aboutUs__left h1 span {
+    color: var(--primary-color);
+}
+
+.aboutUs__left p {
+    margin: 16px 0;
+    text-align: justify;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.aboutUs__left a {
+    display: block;
+    width: 150px;
+    font-size: 1.8rem;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.aboutUs__left a:hover {
+    opacity: 0.8;
+}
+
+.aboutUs__right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs__right::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 430px;
+    height: 150px;
+    background-color: var(--black-color);
+    top: 36px;
+    z-index: -1;
+}
+
+.aboutUs__right img {
+    width: 400px;
+    height: 240px;
+}
+
+/* Reason */
+.reason {
+    margin: 60px 0 40px;
+}
+
+.reason h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.reason-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 24px;
+    height: 120px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.reason-item img{
+    width: 80px;
+    height: 80px;
+}
+
+.reason-item__content {
+    margin-left: 16px;
+}
+
+.reason-item__content h3 {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 2rem;
+}
+
+.reason-item__content p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    text-align: justify;
+}
