@@ -1,7 +1,7 @@
 /* Animation */
 @keyframes showDown {
     0% {
-        transform: translateY(-50%);
+        transform: translateY(-10%);
         opacity: 0;
     }
     100% {
@@ -56,7 +56,6 @@
     width: 400px;
     padding: 8px 10px;
     border-radius: 20px;
-    border: solid 1px var(--black-color);
 }
 
 .header-top__search i {
@@ -67,18 +66,19 @@
 }
 
 .header-top__hotline {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.5;
 }
 
 .header-top__hotline-telephoneNumber {
     color: red;
+ 
 }
 
 
 .header-top__hotline-telephoneNumber p {
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
 }
 /* Header Navigation Bar*/
 .header-nav {
@@ -95,8 +95,9 @@
 
 .header-nav__list > li > a {
     display: block;
-    padding: 20px;
+    padding: 15px;
     font-size: 2rem;
+    font-weight: 500;
     color: var(--white-color);
     text-decoration: none;
     text-transform: uppercase;

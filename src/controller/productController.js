@@ -1,5 +1,5 @@
 const getProductPage = (req, res) => {
-    return res.render("pages/productPage.ejs");
+    return res.render("pages/productpage2.ejs");
   };
   module.exports = {
     getProductPage
