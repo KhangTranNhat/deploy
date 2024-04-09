@@ -20,7 +20,7 @@ html {
     width: 100%;
     font-size: 62.5%; /*1rem = 10px*/
     line-height: 1.6rem; /* 1.6rem = 16px */
-    font-family: 'Roboto', sans-serif  ; /* sans-serif chữ không chân*/
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 ul {

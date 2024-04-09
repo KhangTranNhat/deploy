@@ -22,17 +22,14 @@ const host = process.env.HOST_NAME || "localhost";
 
 
 const START_SERVER = () => {
-  app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
-  });
+  app.listen(port)
 };
 
 CONNECT_DB()
   .then(() => console.log("Connected Database"))
-  // .then(() => START_SERVER())
+  .then(() => START_SERVER())
   .catch((error) => {
     console.error(error);
     process.exit(0);
   });
 
-START_SERVER();
